@@ -1,237 +1,211 @@
 <!DOCTYPE HTML>
 <!--
-	Dimension by HTML5 UP
+	Forty by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-	<!-- 	This is the "Head" of the HTML document.
-		It contains information that isn't displayed on the actual page, but is useful
-		for the web browser when loading the page	
-	-->
 	<head>
-		<!-- This is the title of the page. It is the text that appears inside this pages tab in your web browser -->
-		<title>Dario Colombo</title>
+		<title>Forty by HTML5 UP</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<!-- 	This links to this page's CSS, which is contained in the folder assets/css and the file main.css.
-			 If you want to edit the styling of this page, you should edit the file assets/css/main.css
-			 If you have a new CSS file you'd like to add with custom styling, you should link to it here using:
-			 <link rel="stylesheet" href="assets/css/my-new-css-file.css"/> 
-		-->
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<!-- 	In the case that the user's browser does not support JavaScript (unlikely, but possible), the page
-			will load a separate set of CSS stylings from the file assets/css/noscript.css
-			Any HTML contained inside <noscript></noscript> tags will be loaded in the event that JavaScript is not
-			available. 
-		-->
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
-	<!-- The body is the location where your site's content will go -->
 	<body class="is-preload">
 
-			<!-- This "div" wraps around all of our content and just changes how things are layed out -->
+		<!-- Wrapper -->
 			<div id="wrapper">
 
-					<!-- This is where the content that appears on page load exists -->
-					<header id="header">
-						<!-- This is the main content of the front page -->
-						<div class="content">
-							<div class="inner">
-								<!-- Here is a heading where you can put your name -->
-								<h1>
-									Dario Colombo
-								</h1>
-								<!-- 	Here is an image where you can put a picture of you. 
-									You can change the width and height attributes below to change how large
-									your image is.
-
-									Try adding "border-radius: 50%;" to the style attribute.
-								-->
-								<img src="images/Colombo01-10.jpg" style="width:280px; height:280px; object-fit: cover;">
-								<!-- 	Here is a paragraph where you can put your position and institution, or
-									a short line about yourself.
-								-->
-								<p>
-									Postdoctoral researcher <br> Max Planck Institute for Radio Astronomy (Bonn, Germany)
-								</p>
-								<!-- Here is a paragraph where you can put a link to your CV -->
-								<p>
-									<!-- Note you will want to change where this points to! -->
-									<a href="Colombo_CV.pdf" target="_blank">Curriculum Vitae</a>
-								</p>
-							</div>
-						</div>
-						<!-- This is the navigation menu -->
+				<!-- Header -->
+					<header id="header" class="alt">
+						<a href="index.html" class="logo"><strong>Forty</strong> <span>by HTML5 UP</span></a>
 						<nav>
-							<!-- This element makes an "Unordered List" -->
-							<ul>
-								<!-- This is a "List Item" -->
-								<li>
-									<!-- 	Note that this links to #about, which will move the page to wherever
-										the element with the id "about" exists.
-									-->
-									<a href="#about">About Me</a>
-								</li>
-								<li>
-									<a href="#research">Research</a>
-								</li>
-								<li>
-									<a href="#community">Community</a>
-								</li>
-								<li>
-									<a href="#contact">Contact</a>
-								</li>
-								<!-- 	You can add another button to your navigation menu by adding
-									another List Item with a link inside of it.
-								-->
-								<!-- <li>
-									<a href="images/Astronomy.jpg">My CV</a>
-								</li> -->
-							</ul>
+							<a href="#menu">Menu</a>
 						</nav>
 					</header>
 
-					<!-- These are the "cards" that appear when you click the buttons on the main page -->
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Home</a></li>
+							<li><a href="landing.html">Landing</a></li>
+							<li><a href="generic.html">Generic</a></li>
+							<li><a href="elements.html">Elements</a></li>
+						</ul>
+						<ul class="actions stacked">
+							<li><a href="#" class="button primary fit">Get Started</a></li>
+							<li><a href="#" class="button fit">Log In</a></li>
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+					<section id="banner" class="major">
+						<div class="inner">
+							<header class="major">
+								<h1>Hi, my name is Forty</h1>
+							</header>
+							<div class="content">
+								<p>A responsive site template designed by HTML5 UP<br />
+								and released under the Creative Commons.</p>
+								<ul class="actions">
+									<li><a href="#one" class="button next scrolly">Get Started</a></li>
+								</ul>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
 					<div id="main">
-						<!-- 	Here is the "About Me" card. Note it has the id "about", which the previous 
-							button links to.
-						-->
-						<article id="about">
-							<h2 class="major">About Me</h2>
-							<!-- Here is an image that you can customize for this page -->
-							<!-- <span class="image main">
-								<img src="images/pic01.jpg" alt=""/>
-							</span> -->
-							<!-- Here are three paragraphs where you can fill out information about yourself -->
-							<p>
-								<!-- Items contained in <b> tags are bolded! -->
-								<b>Education:</b> PhD in astronomy (University of Heidelberg); MSc in astrophysics and space physics, BSc in physics (University of Milano-Bicocca)
-							</p>
-							<p>
-								<b>Research Interests:</b> Nearby galaxies and Milky Way; star formation, molecular clouds and galaxy evolution; machine learning
-							</p>
-							<p>
-								<b>Publications:</b> <a href="https://ui.adsabs.harvard.edu/search/fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=database%3A%20astronomy&q=((author%3A(%22colombo%2Cd%22))%20AND%20year%3A2010-2020)&sort=date%20desc%2C%20bibcode%20desc&p_=0">ADS link</a>
-							</p>
-						</article>
 
-						<!-- Here is the "Research" card. -->
-						<article id="research">
-							<h2 class="major">Research</h2>
-							<!-- <span class="image main">
-								<img src="images/pic02.jpg" alt=""/>
-							</span> -->
-							<p>
-								<!-- 	A <br> tag puts in a break so that the text that follows it displays on
-									the next line.
-								-->
-								<b>Unveling the star formation quenching in nearby galaxies</b><br> In the local Universe, galaxies are slowly halting their star formation. How this happens is still a mystery. In the framework of the <a href="https://www.astro.umd.edu/EDGE/" target="_blank">EDGE-CALIFA</a> collaboration, I lead several VLA, NOEMA, and APEX projects to follow-up this issue.
-							</p>
-							<p>
-								<b>Characterize the molecular gas distribution of the Milky Way</b><br> Star formation happens in cold regions of the galaxies called molecular clouds. Constraining molecular cloud properties mean to directly constrain the initial conditions of star formation. With this aim, I am involved in many large Galactic plane surveys (such as <a href="https://sedigism.mpifr-bonn.mpg.de/index.html" target="_blank">SEDIGISM</a>, OGHReS, and LEGO) to catalog the full molecular cloud population of the Milky Way with dedicated machine learning-based algorithms (e.g. <a href="https://github.com/Astroua/SCIMES" target="_blank">SCIMES</a>).
-							</p>
-						</article>
+						<!-- One -->
+							<section id="one" class="tiles">
+								<article>
+									<span class="image">
+										<img src="images/pic01.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Aliquam</a></h3>
+										<p>Ipsum dolor sit amet</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic02.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Tempus</a></h3>
+										<p>feugiat amet tempus</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic03.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Magna</a></h3>
+										<p>Lorem etiam nullam</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic04.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Ipsum</a></h3>
+										<p>Nisl sed aliquam</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic05.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Consequat</a></h3>
+										<p>Ipsum dolor sit amet</p>
+									</header>
+								</article>
+								<article>
+									<span class="image">
+										<img src="images/pic06.jpg" alt="" />
+									</span>
+									<header class="major">
+										<h3><a href="landing.html" class="link">Etiam</a></h3>
+										<p>Feugiat amet tempus</p>
+									</header>
+								</article>
+							</section>
 
-						<!-- Here is the "Community" card. -->
-						<article id="community">
-							<h2 class="major">Community</h2>
-							<!-- <span class="image main">
-								<img src="images/pic03.jpg" alt=""/>
-							</span> -->                                                 
-							<p>
-								<b>Teaching:</b> Check out my lectures on <a href="https://blog.mpifr-bonn.mpg.de/imprs/events/event/maschine-learning/" target="_blank">machine learning for astronomy</a> (at MPIfR) and <a href="https://www.iram-institute.org/EN/content-page-405-7-67-402-405-0.html" target="_blank">nearby galaxies</a> (at the 9th IRAM-30m Summerschool).
-							</p>
-							<p>
-								<b>Outreach:</b> Check out my public talk on <a href="https://www.astronomiamo.it/DivulgazioneAstronomica/Scheda-Professionista-Ospite/Dario%20Colombo" target="_blank">astronomy and AI</a> (for italian users).
-							</p>
-							<!-- <p>
-								<b>Equity & Inclusion:</b>
-							</p> -->
-						</article>
+						<!-- Two -->
+							<section id="two">
+								<div class="inner">
+									<header class="major">
+										<h2>Massa libero</h2>
+									</header>
+									<p>Nullam et orci eu lorem consequat tincidunt vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus pharetra. Pellentesque condimentum sem. In efficitur ligula tate urna. Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor. Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis libero. Mauris aliquet magna magna sed nunc rhoncus amet pharetra et feugiat tempus.</p>
+									<ul class="actions">
+										<li><a href="landing.html" class="button next">Get Started</a></li>
+									</ul>
+								</div>
+							</section>
 
-						<!-- Here is a the "Contact" card. -->
-						<article id="contact">
-							<h2 class="major">Contact</h2>
-							<p> 
-								<b>Email:</b> dcolombo@mpifr-bonn.mpg.de
-							</p>
-							<p> 
-								<b>Address:</b> Max-Planck-Instut für Radioastronomie, Auf dem Hügel 69, 53121, Bonn (Germany)
-							</p>
-
-							<!-- 	Here are the fancy icons that link to your social media.
-								These icons are rendered using Font Awesome fonts, and you can find more icons
-								here: https://fontawesome.com/icons
-							-->
-							<ul class="icons">
-								<!-- The Twitter icon -->
-								<!-- <li> -->
-									<!-- 	Note that you need to change the link to point to your page.
-										Replace "#" with your Twitter profile page.
-									-->
-									<!-- <a href="#" class="icon fa-twitter">
-										<span class="label">Twitter</span>
-									</a> -->
-								<!-- </li> -->
-								<!-- The Facebook icon -->
-								<li>
-									<a href="https://www.facebook.com/dario.colombo.98/" class="icon fa-facebook">
-										<span class="label">Facebook</span>
-									</a>
-								</li>
-								<!-- The Instagram icon -->
-								<!-- <li> -->
-									<!-- <a href="#" class="icon fa-instagram">
-										<span class="label">Instagram</span>
-									</a> -->
-								<!-- </li> -->
-								<!-- The Linkedin icon -->
-								<li>
-									<a href="https://www.linkedin.com/in/dario-colombo-54b494b2/" class="icon fa-linkedin">
-										<span class="label">Linkedin</span>
-									</a>
-								</li>								
-								<!-- The GitHub icon -->
-								<li>
-									<a href="https://github.com/dcolombo" class="icon fa-github">
-										<span class="label">GitHub</span>
-									</a>
-								</li>
-								<!-- 	We can add a new icon by searching on the Font Awesome website
-									for the correct class name and inserting it as a new list item.
-
-									We found "envelope" here: https://fontawesome.com/icons/envelope
-								-->
-								<!-- <li>
-									<a href="#" class="icon fa-envelope">
-										<span class="label">Email</span>
-									</a>
-								</li> -->
-							</ul>
-						</article>
 					</div>
 
-					<!-- This is the footer that appears at the bottom of the page -->
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Name</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="Send Message" class="primary" /></li>
+										<li><input type="reset" value="Clear" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">information@untitled.tld</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Phone</h3>
+										<span>(000) 000-0000 x12387</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Address</h3>
+										<span>1234 Somewhere Road #5432<br />
+										Nashville, TN 00000<br />
+										United States of America</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
 					<footer id="footer">
-						<!-- 	You can change "Untitled" to your name to show everyone that
-							this is your work.
-						-->
-						<p class="copyright">&copy; Untitled. Design: <a href="https://html5up.net">HTML5 UP</a>.</p>
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
 					</footer>
 
 			</div>
 
-			<!--	This is the background image of the site.
-				All configuration of the background is done with CSS.
-				Look in the file assets/css/main.css and search for "#bg" to
-				see how this element is styled. Look for comments pointing 
-				to where you can set a new background image.
-			-->
-			<div id="bg"></div>
-
-			<!-- Scripts -->
+		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
 			<script src="assets/js/browser.min.js"></script>
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>

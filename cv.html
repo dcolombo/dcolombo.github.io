@@ -6,7 +6,7 @@
 -->
 <html>
 	<head>
-		<title>Curriculum vitae</title>
+		<title>CV</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -18,8 +18,9 @@
 			<div id="wrapper">
 
 				<!-- Header -->
-					<header id="header">
-						<a href="index.html" class="logo"><strong>Back</strong> <span>by HOME</span></a>
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+						<a href="index.html" class="logo"><strong>Back</strong> <span>HOME</span></a>
 						<nav>
 							<a href="#menu">Menu</a>
 						</nav>
@@ -32,63 +33,102 @@
 							<li><a href="about.html">About me</a></li>
 							<li><a href="cv.html">Curriculum vitae</a></li>
 							<li><a href="projects.html">Projects</a></li>
-              <li><a href="publications.html">Publications</a></li>
-						</ul>
+							<li><a href="publications.html">Publications</a></li>
 					</nav>
 
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/MysticPillar_HubbleSchmidt_960.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Curriculum vitae</h1>
+							</header>
+							<div class="content">
+								<p><strong>Full publication list: </strong></p>
+								<ul class="actions">
+									<li><a href="https://ui.adsabs.harvard.edu/search/filter_database_fq_database=AND&filter_database_fq_database=database%3A%22astronomy%22&fq=%7B!type%3Daqp%20v%3D%24fq_database%7D&fq_database=(database%3A%22astronomy%22)&q=((%20%20author%3A%22colombo%2Cd%22)%20AND%20year%3A2012-2021)&sort=date%20desc%2C%20bibcode%20desc&p_=0" class="button next scrolly">ADS link</a></li>
+								</ul>
+							</div>							
+						</div>
+					</section>
+
 				<!-- Main -->
-					<div id="main" class="alt">
+					<div class="table-wrapper">
+					<style>
+					table {
+					  font-family: arial, sans-serif;
+					  border-collapse: collapse;
+					  width: 100%;
+					}
 
-          <!-- Table -->
-            <h3>Table</h3>
+					td, th {
+					  border: 1px solid #dddddd;
+					  text-align: left;
+					  padding: 8px;
+					}
 
-            <h4>Default</h4>
-            <div class="table-wrapper">
-              <table>
-                <thead>
-                  <tr>
-                    <th>Name</th>
-                    <th>Description</th>
-                    <th>Price</th>
-                  </tr>
-                </thead>
-                <tbody>
-                  <tr>
-                    <td>Item1</td>
-                    <td>Ante turpis integer aliquet porttitor.</td>
-                    <td>29.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item2</td>
-                    <td>Vis ac commodo adipiscing arcu aliquet.</td>
-                    <td>19.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item3</td>
-                    <td> Morbi faucibus arcu accumsan lorem.</td>
-                    <td>29.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item4</td>
-                    <td>Vitae integer tempus condimentum.</td>
-                    <td>19.99</td>
-                  </tr>
-                  <tr>
-                    <td>Item5</td>
-                    <td>Ante turpis integer aliquet porttitor.</td>
-                    <td>29.99</td>
-                  </tr>
-                </tbody>
-                <tfoot>
-                  <tr>
-                    <td colspan="2"></td>
-                    <td>100.00</td>
-                  </tr>
-                </tfoot>
-              </table>
-            </div>
+					tr:nth-child(even) {
+					  background-color: #dddddd;
+					}
+					</style>
+					</head>
+					<body>
 
+					<h2>HTML Table</h2>
 
+					<table>
+					  <tr>
+					    <th>Company</th>
+					    <th>Contact</th>
+					    <th>Country</th>
+					  </tr>
+					  <tr>
+					    <td>Alfreds Futterkiste</td>
+					    <td>Maria Anders</td>
+					    <td>Germany</td>
+					  </tr>
+					  <tr>
+					    <td>Centro comercial Moctezuma</td>
+					    <td>Francisco Chang</td>
+					    <td>Mexico</td>
+					  </tr>
+					  <tr>
+					    <td>Ernst Handel</td>
+					    <td>Roland Mendel</td>
+					    <td>Austria</td>
+					  </tr>
+					  <tr>
+					    <td>Island Trading</td>
+					    <td>Helen Bennett</td>
+					    <td>UK</td>
+					  </tr>
+					  <tr>
+					    <td>Laughing Bacchus Winecellars</td>
+					    <td>Yoshi Tannamuri</td>
+					    <td>Canada</td>
+					  </tr>
+					  <tr>
+					    <td>Magazzini Alimentari Riuniti</td>
+					    <td>Giovanni Rovelli</td>
+					    <td>Italy</td>
+					  </tr>
+					</table>
+						
+						
+					</div>
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
 
 	</body>
 </html>
